@@ -45,10 +45,10 @@ python test_model.py --origin ./test/origin/ --candidate ./test/candidate/
 **Proprietary, partially released.** The images and labels were collected in our lab and are **not a public benchmark**. To support reproducibility, this repo includes a **small sample** under `dataset/` so you can run the scripts and inspect the I/O formats. The sample is not intended for full training/evaluation.
 
 Sample folders:
-- `origin/` – original cloth images
-- `candidate/` – candidate point maps
+- `origin/` – original fabric images
+- `candidate/` – candidate point maps for imitation learning
 - `label/` – human-labeled points
-- `mask/` – cloth masks
+- `mask/` – fabric masks
 - `reward/` – reward values (area increase)
 
 **Requesting the full dataset.**  

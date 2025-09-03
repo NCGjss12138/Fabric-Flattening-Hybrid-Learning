@@ -46,11 +46,22 @@ python test_joint_train.py -data_dir ./test_joint_train
 **Proprietary, partially released.** The images and labels were collected in our lab and are **not a public benchmark**. To support reproducibility, this repo includes a **small sample** under `dataset/` so you can run the scripts and inspect the I/O formats. The sample is not intended for full training/evaluation.
 
 Sample folders:
-- `origin/` – original fabric images
-- `candidate/` – candidate point maps for imitation learning
-- `label/` – human-labeled points
-- `mask/` – fabric masks
-- `reward/` – reward values (area increase)
+- `dataset/unet_sample/`
+  - `origin/` – original fabric images (`.bmp`)
+  - `candidate/` – candidate point maps (`.bmp`)
+  - `label/` – segmentation labels (`.bmp`)
+- `dataset/actor_sample/`
+  - `origin/` – original images (`.bmp`)
+  - `mask/` – fabric masks (`.bmp`)
+  - `y_pred/` – UNet predictions (`.npy`, shape `[1, 256, 256]`)
+  - `points/` – human-labeled left/right points (`.npy`, dict with keys `left`, `right`)
+- `dataset/joint_sample/`
+  - `util/` – supervised (imitation) folders  
+    Each folder `<id>/` contains:  
+    `img_<id>.bmp`, `img_<id>_candidate.bmp`, `img_<id>_mask.bmp`, `img_<id>.xlsx`, `img_<id>_points.npy`
+  - `explore/` – exploration folders  
+    Each folder `<id>/` contains:  
+    `img_<id>.bmp`, `img_<id>_candidate.bmp`, `img_<id>_mask.bmp`, `img_<id>.xlsx`, `img_<id>_actor_coordinates.npy`
 
 **Requesting the full dataset.**  
 For **non-commercial research use**, you may request access to the full dataset by emailing **ma.youchun.q7@dc.tohoku.ac.jp** with your affiliation, project title, and intended use. 

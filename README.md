@@ -56,7 +56,7 @@ Sample folders:
   - `y_pred/` – UNet predictions (`.npy`, shape `[1, 256, 256]`)
   - `points/` – human-labeled left/right points (`.npy`, dict with keys `left`, `right`)
 - `dataset/joint_sample/`
-  - `util/` – supervised (imitation) folders  
+  - `util/` – exploitation folders  
     Each folder `<id>/` contains:  
     `img_<id>.bmp`, `img_<id>_candidate.bmp`, `img_<id>_mask.bmp`, `img_<id>.xlsx`, `img_<id>_points.npy`
   - `explore/` – exploration folders  

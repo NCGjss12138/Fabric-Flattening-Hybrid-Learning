@@ -38,7 +38,8 @@ python train_joint.py --data_dir ./dataset
 ```
 ### Testing
 ```bash
-python test_model.py --origin ./test/origin/ --candidate ./test/candidate/
+python test_Unet.py -data_dir ./test_Unet
+python test_joint_train.py -data_dir ./test_joint_train
 ```
 
 ## dataset

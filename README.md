@@ -42,14 +42,18 @@ python test_model.py --origin ./test/origin/ --candidate ./test/candidate/
 ```
 
 ## dataset
-Sample data are included:
+**Proprietary, partially released.** The images and labels were collected in our lab and are **not a public benchmark**. To support reproducibility, this repo includes a **small sample** under `dataset/` so you can run the scripts and inspect the I/O formats. The sample is not intended for full training/evaluation.
+
+Sample folders:
 - `origin/` – original cloth images
 - `candidate/` – candidate point maps
 - `label/` – human-labeled points
 - `mask/` – cloth masks
 - `reward/` – reward values (area increase)
 
-Full dataset is available upon request.
+**Requesting the full dataset.**  
+For **non-commercial research use**, you may request access to the full dataset by emailing **ma.youchun.q7@dc.tohoku.ac.jp** with your affiliation, project title, and intended use. 
+
 
 ## results
 

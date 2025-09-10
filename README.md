@@ -1,7 +1,7 @@
 # Fabric Flattening with Dual-Arm Manipulator via Hybrid Imitation and Reinforcement Learning
 
 This repository provides the implementation of our paper:  
-**Fabric Flattening with Dual-Arm Manipulator via Hybrid Imitation and Reinforcement Learning** (*submitted to Advanced Robotics Research*).
+**Fabric Flattening with Dual-Arm Manipulator via Hybrid Imitation and Reinforcement Learning** (*submitted to Machines*).
 
 ---
 

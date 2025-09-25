@@ -78,6 +78,6 @@ For **non-commercial research use**, you may request access to the full dataset 
 @article{Ma2025FabricFlattening,
   title={Fabric Flattening with Dual-Arm Manipulator via Hybrid Imitation and Reinforcement Learning},
   author={Ma, Youchun and Tokuda, Fuyuki and Seino, Akira and Kobayashi, Akinari and Kosuge, Kazuhiro},
-  journal={Advanced Robotics Research},
+  journal={Machines},
   year={2025}
 }
